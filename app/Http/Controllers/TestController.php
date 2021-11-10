@@ -7,4 +7,10 @@ use Illuminate\Http\Request;
 class TestController extends Controller
 {
     //Prueba de controller nuevo 
+    
+
+public function index(){
+    return 'Usuarios';
+}
+
 }
