@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 });
 
-Route::get('/Usuarios', [TestController::class,'index']);
+Route::get('/Usuarios' [TestController::class , 'index']);
